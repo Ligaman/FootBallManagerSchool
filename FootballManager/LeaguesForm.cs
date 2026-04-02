@@ -13,6 +13,7 @@ namespace FootballManager;
 
 public partial class LeaguesForm : Form
 {
+
     private readonly LeaguesRepository _leaguesRepo = new();
     private readonly LeagueTeamsRepository _teamsRepo = new();
 
@@ -21,6 +22,7 @@ public partial class LeaguesForm : Form
 
     public LeaguesForm()
     {
+
         InitializeComponent();
 
         dgvLeagues.ReadOnly = true;
